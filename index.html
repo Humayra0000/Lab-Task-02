@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+
+<body>
+    <div class="box1">
+        <h1>Job Application</h1>
+        <h4 class="h4">join our team and build your career with us</h4>
+
+        <div class="application">
+
+            <form>
+                <label for="fullname">Full Name* </label>
+                <input id="fullname" type="text" placeholder=" Enter your Full-Name">
+
+                <label for="email">Email*</label>
+                <input id="email" type="Email" placeholder=" i.e.abc12@gmail.com">
+
+                <label for="phonenumber">Phone Number*</label>
+                <input id="num" type="number" placeholder="Enter your phone number">
+
+                <label for="password">Create Account Password*</label>
+                <input id="pass" type="password" placeholder="Enter Password">
+
+                <label for=" Confirmpassword">Confirm Password* </label>
+                <input id="cpass" type="password" placeholder="Confirm password">
+
+                <label for="exlevel ">Experience Level* </label>
+                <select id="exlevel">
+                    <option value="">Select</option>
+                    <option value="Entry">Entry Level (0-2 years)</option>
+                    <option value="Mid">Mid Level (3-5 years)</option>
+                    <option value="Senior">Senior Level (6-10 years)</option>
+                    <option value="Executive ">Executive (10+ years) (0-2 years)</option>
+                </select>
+
+                <label for="number">Expected Salary(annual)*</label>
+                <input id="salary" type="number" placeholder="$ 5000">
+
+                <input id="check" class="check" type="checkbox">I agree to the terms & conditions and privacy policy*.
+
+                <input type="submit" id="button1" class="button1" value="Submit Application" onclick="return validate()">
+
+            </form>
+            <p id="error" class="errormsg"></p>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

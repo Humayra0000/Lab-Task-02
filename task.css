@@ -1,0 +1,74 @@
+.box1{
+    background-color: darkmagenta;
+    color:azure;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.h4{
+    color: azure;
+    text-align: center;
+    font-size: 10px; 
+}
+
+body{
+    background-color: rgb(94, 125, 163);
+    color: azure;
+    display: flex;
+    justify-content:center ;
+    
+}
+
+.application{
+    background-color: darkslateblue;
+    width: 400px;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+input{
+    width: 300px;
+    padding: 7px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+form label{
+      display: flex;
+      justify-content: center;
+      margin: 5px 0px 5px 0px;
+    }
+
+
+
+.check{
+     display: inline-block;
+     width: 20px;    
+     
+}
+
+.button1{
+    color: azure;
+    background-color: darkmagenta;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.button1:hover{
+    background-color: rgb(232, 18, 232);
+ }
+
+p{
+    text-align: center
+}
+
+.errormsg{
+    color: red;
+}
